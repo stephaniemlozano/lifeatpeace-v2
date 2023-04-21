@@ -1,38 +1,81 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(252, 246, 238);
+  color: #ab5129;
+  scroll-behavior: smooth;
+}
+/* ----- HEADER ----- */
+.header {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Gloock', serif;
+  background-color: #ebffa1;
+  margin-bottom: 50px;
+  color: #ab5129;
+  text-decoration: none;
+  margin: 8px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header img{
+  width: 250px;
+  margin: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+  display: inline;
+  margin: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ----- HOME ----- */
+.home {
+  font-family: 'Arapey', serif;
+  font-size: 15px;
+}
+.quote {
+  text-align: center;
+  margin: 25px;
+}
+
+/* ----- ABOUT ----- */
+.about {
+  background-color: #ebffa1;
+}
+
+.aboutUs {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 19px;
 }
 
-.App-link {
-  color: #61dafb;
+.aboutUs img {
+  width: 240px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.aboutUs p {
+  margin: 20px;
+}
+
+/* ----- SERVICES ----- */
+
+
+/* ----- CONTACT ----- */
+.contact {
+  background-color: #ebffa1;
+}
+
+/* ----- FOOTER ----- */
+.footer {
+  margin-top: 50px;
+  text-align: center;
 }

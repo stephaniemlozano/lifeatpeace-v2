@@ -13,6 +13,7 @@ body {
   background-color: rgb(252, 246, 238);
   color: #ab5129;
   scroll-behavior: smooth;
+  margin: 10px;
 }
 /* ----- HEADER ----- */
 .header {
@@ -20,11 +21,9 @@ body {
   font-size: 30px;
   font-family: 'Gloock', serif;
   background-color: #ebffa1;
-  margin-bottom: 50px;
   color: #ab5129;
   text-decoration: none;
   margin: 8px;
-  text-align: center;
 }
 
 .header img{
@@ -35,6 +34,7 @@ body {
 .link {
   display: inline;
   margin: 10px;
+  cursor: pointer;
 }
 
 /* ----- HOME ----- */
@@ -45,33 +45,56 @@ body {
 .quote {
   text-align: center;
   margin: 25px;
+  font-size: 17px;
 }
 
 /* ----- ABOUT ----- */
-.about {
-  background-color: #ebffa1;
+
+.about h1 {
+  margin: 10px;
+  font-size: 35px;
 }
 
 .aboutUs {
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 15px;
   font-size: 19px;
 }
 
 .aboutUs img {
   width: 240px;
   margin: 10px;
+  border: 1px solid #ab5129;
+  border-radius: 10px;
 }
 
-.aboutUs p {
-  margin: 20px;
+.aboutUs h2 {
+  margin-inline: 20px;
+  margin-top: 90px;
+  list-style: none;
 }
+
 
 /* ----- SERVICES ----- */
+.services {
+  margin: 10px;
+}
+.services h1 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
 
+.services h2 {
+  font-size: 20px;
+}
 
 /* ----- CONTACT ----- */
 .contact {
-  background-color: #ebffa1;
+  margin: 10px;
+  text-align: center;
+  font-size: 19px;
 }
 
 /* ----- FOOTER ----- */

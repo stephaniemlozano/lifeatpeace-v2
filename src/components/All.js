@@ -24,10 +24,18 @@ const All = () => {
       <div className='header'>
         <img src={logo} alt='Life at Peace logo' />
         <ul>
-          <li className='link' onClick={() => scrollToSection(home)}>Home</li>
-          <li className='link' onClick={() => scrollToSection(about)}>About</li>
-          <li className='link' onClick={() => scrollToSection(services)}>Services</li>
-          <li className='link' onClick={() => scrollToSection(contact)}>Contact</li>
+          <li className='link' onClick={() => scrollToSection(home)}>
+            Home
+          </li>
+          <li className='link' onClick={() => scrollToSection(about)}>
+            About
+          </li>
+          <li className='link' onClick={() => scrollToSection(services)}>
+            Services
+          </li>
+          <li className='link' onClick={() => scrollToSection(contact)}>
+            Contact
+          </li>
         </ul>
       </div>
       <br />
@@ -45,7 +53,17 @@ const All = () => {
       <div ref={about} className='about'>
         <h1>About</h1>
         <div className='aboutUs'>
-          <img src={headshot} alt='Self Portrait of Carolina Onorati' />
+          <img src={headshot} alt='Carolina Onorati' />
+          <div>
+            <h2>Qualifications</h2>
+            <ul>
+              <ol>License: Florida / MH 17095</ol>
+              <ol>School: Nova Southeastern University</ol>
+              <ol>Year Graduated: 2012</ol>
+            </ul>
+          </div>
+        </div>
+        <div className='aboutUs'>
           <p>
             Every great change starts with one decision to try something
             different and I applaud your courage in taking this first step! I am
@@ -67,14 +85,7 @@ const All = () => {
             their thoughts, emotions, and behaviors. Iam also well versed in
             Solution Focused Brief Therapy (SFBT).
           </p>
-          <br />
         </div>
-        <h2>Qualifications</h2>
-        <ul>
-          <li>License: Florida / MH 17095</li>
-          <li>School: Nova Southeastern University</li>
-          <li>Year Graduated: 2012</li>
-        </ul>
       </div>
       <br />
 
@@ -82,67 +93,68 @@ const All = () => {
         <h1>Services</h1>
         <h2>Individual Sessions</h2>
         <ul>
-          <li>50 minutes</li>
-          <li>Virtual or In Person</li>
+          <ol>50 minutes</ol>
+          <ol>Virtual or In Person</ol>
         </ul>
         <br />
         <h2>Specialties</h2>
         <ul>
-          <li>Anxiety</li>
-          <li>Eating Disorders</li>
-          <li>Stress</li>
-          <li>Mood Disorders</li>
-          <li>Personality Disorders</li>
+          <ol>Anxiety</ol>
+          <ol>Eating Disorders</ol>
+          <ol>Stress</ol>
+          <ol>Mood Disorders</ol>
+          <ol>Personality Disorders</ol>
         </ul>
         <br />
         <h2>Issues</h2>
         <ul>
-          <li>Borderline Personality Disorder</li>
-          <li>Child</li>
-          <li>Coping Skills</li>
-          <li>Grief</li>
-          <li>Life Coaching</li>
-          <li>Life Transitions</li>
-          <li>Relationship Issues</li>
-          <li>Self Esteem</li>
-          <li>Women's Issues</li>
-          <li>Body Positivity</li>
+          <ol>Borderline Personality Disorder</ol>
+          <ol>Child</ol>
+          <ol>Coping Skills</ol>
+          <ol>Grief</ol>
+          <ol>Life Coaching</ol>
+          <ol>Life Transitions</ol>
+          <ol>Relationship Issues</ol>
+          <ol>Self Esteem</ol>
+          <ol>Women's Issues</ol>
+          <ol>Body Positivity</ol>
         </ul>
         <br />
         <h2>Types of Therapy</h2>
         <ul>
-          <li>Cognitive Behavioral (CBT)</li>
-          <li>Emotionally Focused</li>
-          <li>Narrative</li>
-          <li>Positive Psychology</li>
-          <li>Solution Focused Brief (SFBT)</li>
+          <ol>Cognitive Behavioral (CBT)</ol>
+          <ol>Emotionally Focused</ol>
+          <ol>Narrative</ol>
+          <ol>Positive Psychology</ol>
+          <ol>Solution Focused Brief (SFBT)</ol>
         </ul>
+        <br />
         <h2>Client Focus</h2>
         <ul>
-          <li>Children (6 to 10)</li>
-          <li>Preteen</li>
-          <li>Teen</li>
-          <li>Adult</li>
+          <ol>Children (6 to 10)</ol>
+          <ol>Preteen</ol>
+          <ol>Teen</ol>
+          <ol>Adult</ol>
         </ul>
         <br />
         <h2>Finances</h2>
         <ul>
-          <li>Session Fee: $140 per session</li>
-          <li>Couples Session Fee: $150 per session</li>
-          <li>Accepted Payments: Venmo, Visa</li>
+          <ol>Session Fee: $140 per session</ol>
+          <ol>Couples Session Fee: $150 per session</ol>
+          <ol>Accepted Payments: Venmo, Visa</ol>
         </ul>
         <br />
         <h3>Accepted Insurance Plans:</h3>
         <ul>
-          <li>Aetna</li>
-          <li>AvMed</li>
-          <li>BlueCross & BlueShield</li>
-          <li>Cigna & Evernorth</li>
-          <li>Florida Blue</li>
-          <li>Humana</li>
-          <li>Optum</li>
-          <li>Oscar Health</li>
-          <li>UnitedHealthCare UHC | UBH</li>
+          <ol>Aetna</ol>
+          <ol>AvMed</ol>
+          <ol>BlueCross & BlueShield</ol>
+          <ol>Cigna & Evernorth</ol>
+          <ol>Florida Blue</ol>
+          <ol>Humana</ol>
+          <ol>Optum</ol>
+          <ol>Oscar Health</ol>
+          <ol>UnitedHealthCare UHC | UBH</ol>
         </ul>
         <p>
           *If you see your insurance listed, please ask me to verify coverage
@@ -152,47 +164,15 @@ const All = () => {
       <br />
 
       <div ref={contact} className='contact'>
-        <h1>Contact</h1>
         <h3>Dania Beach, FL 33004</h3>
         <p>
           Call: <a href='tel:+9542131158'>(954)213-1158</a> or{' '}
           <a href='mailto:lifeatpeacetherapy@gmail.com'>Email Me</a>
         </p>
-        <br />
-
-        <form>
-          <label>
-            First Name:
-            <input type='text' name='name' placeholder='Your First Name' />
-          </label>
-          <br />
-          <label>
-            Last Name:
-            <input type='text' name='name' placeholder='Your Last Name' />
-          </label>
-          <br />
-          <label>
-            Email:
-            <input type='text' name='email' placeholder='Your Email' />
-          </label>
-          <br />
-          <label>
-            Your Message:
-            <input
-              type='text'
-              name='name'
-              placeholder='Enter your message here.'
-            />
-          </label>
-          <br />
-          <input type='submit' value='Submit' />
-        </form>
       </div>
-      <br />
-      
-      <div className="footer">
-      <small>Copyright © {copyrightDate()} | All rights reserved</small>
-    </div>
+      <div className='footer'>
+        <small>Copyright © {copyrightDate()} | All rights reserved</small>
+      </div>
     </div>
   )
 }

@@ -89,77 +89,98 @@ const All = () => {
       </div>
       <br />
 
+      <h1>Services</h1>
       <div ref={services} className='services'>
-        <h1>Services</h1>
-        <h2>Individual Sessions</h2>
-        <ul>
-          <ol>50 minutes</ol>
-          <ol>Virtual or In Person</ol>
-        </ul>
+        <div className='services-card'>
+          <h2>Individual Sessions:</h2>
+          <ul>
+            <ol>50 minutes</ol>
+            <ol>Virtual</ol>
+            <ol>In Person</ol>
+          </ul>
+        </div>
         <br />
-        <h2>Specialties</h2>
-        <ul>
-          <ol>Anxiety</ol>
-          <ol>Eating Disorders</ol>
-          <ol>Stress</ol>
-          <ol>Mood Disorders</ol>
-          <ol>Personality Disorders</ol>
-        </ul>
+        <div className='services-card'>
+          <h2>Specialties:</h2>
+          <ul>
+            <ol>Anxiety</ol>
+            <ol>Eating Disorders</ol>
+            <ol>Stress</ol>
+            <ol>Mood Disorders</ol>
+            <ol>Personality Disorders</ol>
+          </ul>
+        </div>
         <br />
-        <h2>Issues</h2>
-        <ul>
-          <ol>Borderline Personality Disorder</ol>
-          <ol>Child</ol>
-          <ol>Coping Skills</ol>
-          <ol>Grief</ol>
-          <ol>Life Coaching</ol>
-          <ol>Life Transitions</ol>
-          <ol>Relationship Issues</ol>
-          <ol>Self Esteem</ol>
-          <ol>Women's Issues</ol>
-          <ol>Body Positivity</ol>
-        </ul>
+
+        <div className='services-card'>
+          <h2>Issues:</h2>
+          <ul>
+            <ol>Borderline Personality Disorder</ol>
+            <ol>Child</ol>
+            <ol>Coping Skills</ol>
+            <ol>Grief</ol>
+            <ol>Life Coaching</ol>
+            <ol>Life Transitions</ol>
+            <ol>Relationship Issues</ol>
+            <ol>Self Esteem</ol>
+            <ol>Women's Issues</ol>
+            <ol>Body Positivity</ol>
+          </ul>
+        </div>
         <br />
-        <h2>Types of Therapy</h2>
-        <ul>
-          <ol>Cognitive Behavioral (CBT)</ol>
-          <ol>Emotionally Focused</ol>
-          <ol>Narrative</ol>
-          <ol>Positive Psychology</ol>
-          <ol>Solution Focused Brief (SFBT)</ol>
-        </ul>
+
+        <div className='services-card'>
+          <h2>Types of Therapy:</h2>
+          <ul>
+            <ol>Cognitive Behavioral (CBT)</ol>
+            <ol>Emotionally Focused</ol>
+            <ol>Narrative</ol>
+            <ol>Positive Psychology</ol>
+            <ol>Solution Focused Brief (SFBT)</ol>
+          </ul>
+        </div>
         <br />
-        <h2>Client Focus</h2>
-        <ul>
-          <ol>Children (6 to 10)</ol>
-          <ol>Preteen</ol>
-          <ol>Teen</ol>
-          <ol>Adult</ol>
-        </ul>
+
+        <div className='services-card'>
+          <h2>Client Focus:</h2>
+          <ul>
+            <ol>Children (6 to 10)</ol>
+            <ol>Preteen</ol>
+            <ol>Teen</ol>
+            <ol>Adult</ol>
+          </ul>
+        </div>
         <br />
-        <h2>Finances</h2>
-        <ul>
-          <ol>Session Fee: $140 per session</ol>
-          <ol>Couples Session Fee: $150 per session</ol>
-          <ol>Accepted Payments: Venmo, Visa</ol>
-        </ul>
+
+        <div className='services-card'>
+          <h2>Finances:</h2>
+          <ul>
+            <ol>Session Fee: $140 per session</ol>
+            <ol>Couples Session Fee: $150 per session</ol>
+            <ol>Accepted Payments: Venmo, Visa</ol>
+          </ul>
+        </div>
         <br />
-        <h3>Accepted Insurance Plans:</h3>
-        <ul>
-          <ol>Aetna</ol>
-          <ol>AvMed</ol>
-          <ol>BlueCross & BlueShield</ol>
-          <ol>Cigna & Evernorth</ol>
-          <ol>Florida Blue</ol>
-          <ol>Humana</ol>
-          <ol>Optum</ol>
-          <ol>Oscar Health</ol>
-          <ol>UnitedHealthCare UHC | UBH</ol>
-        </ul>
-        <p>
-          *If you see your insurance listed, please ask me to verify coverage
-          when you arrange your first visit.
-        </p>
+
+        <div className='services-card'>
+          <h3>Accepted Insurance Plans:</h3>
+          <ul>
+            <ol>Aetna</ol>
+            <ol>AvMed</ol>
+            <ol>BlueCross & BlueShield</ol>
+            <ol>Cigna & Evernorth</ol>
+            <ol>Florida Blue</ol>
+            <ol>Humana</ol>
+            <ol>Optum</ol>
+            <ol>Oscar Health</ol>
+            <ol>UnitedHealthCare UHC | UBH</ol>
+          </ul>
+          <br />
+          <p>
+            *If you see your insurance listed, please ask me to verify coverage
+            when you arrange your first visit.
+          </p>
+        </div>
       </div>
       <br />
 
